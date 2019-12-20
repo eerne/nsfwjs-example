@@ -1,0 +1,46 @@
+.video {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.video video {
+  left: 0;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+@media (orientation: landscape) {
+  .video video {
+    max-height: 100%;
+  }
+}
+
+.flipIcon {
+  fill: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48px;
+  z-index: 2;
+}
+
+.video__caption {
+  bottom: 0;
+  color: white;
+  font-size: .7rem;
+  padding: 0 .25rem .25rem .25rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (orientation: landscape) {
+  .video__caption {
+    text-align: left;
+  }
+}

@@ -1,0 +1,40 @@
+.image {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.image--background {
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  object-fit: scale-down;
+  object-position: left top;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+@media (orientation: landscape) {
+  .image {
+    height: 100vh;
+  }
+}
+
+.image--focus {
+  border: 4px dotted lightseagreen;
+}
+
+.image input {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;  
+}

@@ -1,0 +1,13 @@
+.chart {
+  bottom: 6rem;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+
+@media (orientation: landscape) {
+  .chart {
+    right: 0;
+    width: 340px;
+  }
+}

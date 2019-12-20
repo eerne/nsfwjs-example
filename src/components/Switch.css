@@ -1,0 +1,26 @@
+.switch {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0 .5rem .5rem .5rem;
+}
+
+.switch--input {
+  display: block !important;
+  vertical-align: middle;
+}
+
+.switch--checked,
+.switch--unchecked {
+  color: white;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.switch--checked {
+  padding: 0 .5rem 0 1.5rem;
+}
+
+.switch--unchecked {
+  padding: 0 1.5rem 0 .5rem;
+}

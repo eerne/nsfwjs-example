@@ -1,0 +1,19 @@
+:root {
+  --secondary-text-color: #565656;
+  --secondary-text-size: .7rem;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  background: #020202;
+  box-sizing: border-box;
+  color: #fefefe;
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+}
