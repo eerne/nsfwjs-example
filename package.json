@@ -11,7 +11,7 @@
     "victory": "33.1.7"
   },
   "devDependencies": {
-    "react-scripts": "3.3.0"
+    "react-scripts": "5.0.1"
   },
   "disabledDeps": {
     "webrtc-adapter": "7.3.0"
